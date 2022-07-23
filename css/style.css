@@ -1,0 +1,71 @@
+.theme{
+    color: #744ca2!important;
+}
+.theme2{
+    background-color: #f9f9ff;
+}
+.navbar{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+.navbar-brand{
+    font-family: 'Lobster' , cursive;
+    font-size: 35px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.nav-link:hover{
+    font-size: 20px;
+    color: #744ca2!important;
+}
+img{
+    width: 250px;
+}
+p{
+    color: dimgray;
+    text-align: justify!important;
+}
+.my-btn{
+    border: 2px solid #744ca2;
+    border-radius: 5px;
+}
+.my-btn:hover{
+    color: white!important;
+    background-color: #744ca2;
+}
+.service-icon{
+    width: 150px;
+    height: 100px;
+    color: #744ca2;
+    background-color: white;
+    font-size: 40px;
+}
+.my-contact{
+    background-image: url("https://engr-saad.com/public/frontend/img/map_bg.svg");
+}
+.contact-icon{
+    color: #744ca2;
+    font-size: 20px;
+}
+.media-icon{
+    color: #744ca2;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+}
+.send-btn{
+    color: white;
+    background-color: #744ca2;
+}
+.send-btn:hover{
+    color: white;
+    background-color: #744ca2;
+}
+.footer p{
+    margin: auto;
+}
+.footer span{
+    color: #744ca2;
+}
