@@ -59,7 +59,8 @@
                     <p class="my-p">I'm a student of class XI. Besides my academic education, I'm interested in computer
                         programming. I love to
                         know new things, enrich my knowledge & improve my skills. My aim is to become a full-stack web
-                        developer & computer programmer. I've already learned the basics of HTML , CSS , Bootstrap, JavaScript
+                        developer & computer programmer. I've already learned the basics of HTML , CSS , Bootstrap,
+                        JavaScript
                         & Git/Github. I can build any
                         simple website. I can even teach my friends how to make a simple website. My goal is to build
                         dynamic websites and learn advanced topics.</p>
@@ -92,7 +93,8 @@
             <div class="col-sm m-3 py-3  card shadow text-center">
                 <i class="fa-solid fa-pen service-icon m-auto pt-3"></i>
                 <h4>Content Writing</h4>
-                <p>We can write content or article for your academic or professional work. You'll get better experience from us.</p>
+                <p>We can write content or article for your academic or professional work. You'll get better experience
+                    from us.</p>
             </div>
         </div>
     </div>
@@ -145,7 +147,9 @@
         <div class="row">
             <div class="col-md-4 my-contact pl-4">
                 <h4>Quick Contact</h4>
-                <p>Don't like forms? Send me an <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=mdhossainpabon@gmail.com&amp;cc=mdhossainpabon@gmail.com&amp;su=Need to disscuss with Mr. Pabon&amp;body=Hello, I need to talk" target="_blank" class="mail_text theme"><b>email</b></a>.</p><br>
+                <p>Don't like forms? Send me an <a
+                        href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=mdhossainpabon@gmail.com&amp;cc=mdhossainpabon@gmail.com&amp;su=Need to disscuss with Mr. Pabon&amp;body=Hello, I need to talk"
+                        target="_blank" class="mail_text theme"><b>email</b></a>.</p><br>
                 <i class="fa-solid fa-envelope contact-icon"></i>
                 <h5>Email</h5>
                 <p>mdhossainpabon@gmail.com</p> <br>
@@ -167,13 +171,13 @@
                         <div class="col-md-5">
                             <h6>Name</h6>
                             <label class="sr-only" for="inlineFormInputName">Name</label>
-                            <input type="text" class="form-control shadow-sm p-4 mb-3 name-inp" id="inlineFormInputName"
+                            <input type="text" class="form-control shadow-sm p-4 mb-3 name-inp" id="name_inp"
                                 placeholder="Enter your name" required>
                         </div>
                         <div class="col-md-5">
                             <h6>Email</h6>
                             <label class="sr-only" for="inlineFormInputName">Email</label>
-                            <input type="text" class="form-control shadow-sm p-4" id="inlineFormInputName"
+                            <input type="text" class="form-control shadow-sm p-4" id="mail_inp"
                                 placeholder="Enter your email" required>
                         </div>
                     </div>
@@ -181,7 +185,7 @@
                         <div class="col-md-10">
                             <h6>Subject</h6>
                             <label class="sr-only" for="inlineFormInputName">Subject</label>
-                            <input type="text" class="form-control shadow-sm p-4" id="inlineFormInputName"
+                            <input type="text" class="form-control shadow-sm p-4" id="sub_inp"
                                 placeholder="Enter subject">
                         </div>
                     </div>
@@ -189,20 +193,22 @@
                         <div class="col-md-10">
                             <h6>Messege</h6>
                             <label class="sr-only" for="inlineFormInputName">Messege</label>
-                            <input type="text" class="form-control shadow-sm p-4 h-75 mb-5" id="inlineFormInputName"
+                            <input type="text" class="form-control shadow-sm p-4 h-75 mb-5" id="m_inp"
                                 placeholder="Enter your messege">
-                            <a href="#send" data-toggle="modal" data-target="#exampleModal" type="button"
-                                class="btn mb-3 send-btn send" id="submit-btn"><i class="fa-solid fa-paper-plane"></i>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal" type="button"
+                                class="btn mb-3 send-btn send" id="submit_btn"><i class="fa-solid fa-paper-plane"></i>
                                 Send</a>
                         </div>
                     </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog" id="mod">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Currently server is not connected.
+                                    <h5 class="modal-title" id="exampleModalLabel">Hi, <span class="theme"
+                                            id="name_output">User</span>.Thanks for your opinion. <br>
+                                        Currently our server is not connected.
                                         Please contact us through email or social media.</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
