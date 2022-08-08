@@ -18,7 +18,7 @@ function main() {
 
         if (!name) {
             alert('Please Enter a Valid Name');
-            // resultBody.innerHTML = "Please Enter a Valid Name";
+            resultBody.style.display = 'none';
         }
         else {
             resultBody.style.display = 'block';
