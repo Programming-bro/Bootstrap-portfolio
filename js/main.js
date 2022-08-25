@@ -15,9 +15,10 @@ function main() {
 
     submitBtn.addEventListener('click', function () {
         const name = nameInp.value;
+        const mail = mailInp.value;
 
-        if (!name) {
-            alert('Please Enter a Valid Name');
+        if (!name || !mail) {
+            alert('Please Enter a Valid Name and Mail address');
             resultBody.style.display = 'none';
         }
         else {
